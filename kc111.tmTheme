@@ -14,11 +14,11 @@
         <key>caret</key>
         <string>#FFFFFF</string>
         <key>foreground</key>
-        <string>#DFF1E2</string>
+        <string>#F4F0E2</string>
         <key>invisibles</key>
         <string>#CAE2FB3D</string>
         <key>lineHighlight</key>
-        <string>#1A1A1A</string>
+        <string>#1C203F</string>
         <key>selection</key>
         <string>#1C203F</string>
       </dict>
@@ -48,6 +48,7 @@
       </dict>
     </dict>
     <dict>
+      <!-- Colons and string quotes -->
       <key>name</key>
       <string>Punctuation2</string>
       <key>scope</key>
@@ -55,10 +56,11 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string></string>
+        <string>#b0c0a2</string>
       </dict>
     </dict>
     <dict>
+      <!-- Comment  -->
       <key>name</key>
       <string>Comment</string>
       <key>scope</key>
@@ -72,6 +74,7 @@
       </dict>
     </dict>
     <dict>
+      <!-- Method Names  -->
       <key>name</key>
       <string>Entity</string>
       <key>scope</key>
@@ -81,10 +84,12 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#FEC796</string>
+        <string>#EFC7A4</string>
       </dict>
     </dict>
     <dict>
+      
+      <!-- Include & require  -->
       <key>name</key>
       <string>Keyword</string>
       <key>scope</key>
@@ -97,6 +102,7 @@
         <string>#67b7d3</string>
       </dict>
     </dict>
+    <!-- class, module, attr_* and if/elsifend -->
     <dict>
       <key>name</key>
       <string>Keyword.control</string>
@@ -111,6 +117,7 @@
       </dict>
     </dict>
     <dict>
+      <!-- not sure -->
       <key>name</key>
       <string>Keyword.Operator</string>
       <key>scope</key>
@@ -124,6 +131,7 @@
       </dict>
     </dict>
     <dict>
+      <!-- Class names and module names -->
       <key>name</key>
       <string>Class</string>
       <key>scope</key>
@@ -137,6 +145,7 @@
       </dict>
     </dict>
     <dict>
+      <!-- inline Classes? -->
       <key>name</key>
       <string>Support</string>
       <key>scope</key>
@@ -150,6 +159,7 @@
       </dict>
     </dict>
     <dict>
+      <!--not sure -->
       <key>name</key>
       <string>Storage</string>
       <key>scope</key>
@@ -163,6 +173,7 @@
       </dict>
     </dict>
     <dict>
+      <!--not sure -->
       <key>name</key>
       <string>Storage.modifier</string>
       <key>scope</key>
@@ -176,6 +187,7 @@
       </dict>
     </dict>
     <dict>
+      <!-- symbols -->
       <key>name</key>
       <string>Constant</string>
       <key>scope</key>
@@ -189,6 +201,7 @@
       </dict>
     </dict>
     <dict>
+      <!-- Strings -->
       <key>name</key>
       <string>String</string>
       <key>scope</key>
@@ -202,6 +215,7 @@
       </dict>
     </dict>
     <dict>
+      <!-- Numbers -->
       <key>name</key>
       <string>Number</string>
       <key>scope</key>
@@ -215,6 +229,7 @@
       </dict>
     </dict>
     <dict>
+      <!-- Variable -->
       <key>name</key>
       <string>Variable</string>
       <key>scope</key>
@@ -224,7 +239,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#BAB5FD</string>
+        <string>#DAD7FE</string>
       </dict>
     </dict>
     <dict>
@@ -277,6 +292,131 @@
         <string>#FD2B38</string>
       </dict>
     </dict>
+    <dict>
+    <key>name</key>
+    <string>Bracket Tag</string>
+    <key>scope</key>
+    <string>brackethighlighter.tag</string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>#474747</string>
+        <key>background</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket Curly</string>
+    <key>scope</key>
+    <string>brackethighlighter.curly</string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket Round</string>
+    <key>scope</key>
+    <string>brackethighlighter.round</string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket Square</string>
+    <key>scope</key>
+    <string>brackethighlighter.square</string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket Angle</string>
+    <key>scope</key>
+    <string>brackethighlighter.angle</string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket Quote</string>
+    <key>scope</key>
+    <string>brackethighlighter.quote</string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket curly</string>
+    <key>scope</key>
+    <string>bracket.curly</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket Round</string>
+    <key>scope</key>
+    <string>bracket.round</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket Square</string>
+    <key>scope</key>
+    <string>bracket.square</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket Angle</string>
+    <key>scope</key>
+    <string>bracket.angle</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bracket Quote</string>
+    <key>scope</key>
+    <string>bracket.quote</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#474747</string>
+    </dict>
+</dict>
+
+
     <dict>
       <key>name</key>
       <string>♦ Embedded Source (Bright)</string>
@@ -415,7 +555,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#DAD085</string>
+        <string>#F4F0E2</string>
       </dict>
     </dict>
     <dict>
