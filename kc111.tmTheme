@@ -56,7 +56,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b0c0a2</string>
+        <string>#6F865B</string>
       </dict>
     </dict>
     <dict>
@@ -211,7 +211,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#9BFF4E</string>
+        <string>#A7DE7C</string>
       </dict>
     </dict>
     <dict>
@@ -242,6 +242,88 @@
         <string>#DAD7FE</string>
       </dict>
     </dict>
+    
+    <!-- Instance var '@' -->
+    <dict>
+      <key>name</key>
+      <string>Instance Variable '@' Symbol</string>
+      <key>scope</key>
+      <string>punctuation.definition.variable</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#DAD7FE</string>
+      </dict>
+    </dict>
+
+    <!-- Param Parens -->
+    <dict>
+      <key>name</key>
+      <string>Parameter params</string>
+      <key>scope</key>
+      <string>punctuation.definition.parameters</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#F4F0E2</string>
+      </dict>
+    </dict>85BFFD
+    <!-- if else end -->
+    <dict>
+      <key>name</key>
+      <string>Parameter params</string>
+      <key>scope</key>
+      <string>keyword.control</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#85BFFD</string>
+      </dict>
+    </dict>
+    <!-- def -->
+    <dict>
+      <key>name</key>
+      <string>Parameter params</string>
+      <key>scope</key>
+      <string>keyword.control.def</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#85BFFD</string>
+      </dict>
+    </dict>
+
+    <!-- double quotes strings content -->
+    <dict>
+      <key>comment</key>
+      <string>comment sign</string>
+      <key>scope</key>
+      <string>comment.line.number-sign.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#878787</string>
+      </dict>
+    </dict>
+
+
+
+
+
+<!-- NOT SURE -->
+    
+
+
     <dict>
       <key>name</key>
       <string>PHP function</string>
